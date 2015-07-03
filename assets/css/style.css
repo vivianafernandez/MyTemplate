@@ -1,0 +1,20 @@
+body{
+
+}
+.content{
+	background: #ccc;
+
+}
+nav{
+	background: #f19c12;
+	padding: 20px;
+}
+
+nav > ul{
+	text-align: left;
+}
+nav > ul > li{
+
+	display: inline;
+	color: #fff;
+}
