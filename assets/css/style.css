@@ -4,17 +4,76 @@ body{
 .content{
 	background: #ccc;
 
+
 }
 nav{
 	background: #f19c12;
 	padding: 20px;
+	text-align: right;
+	/*width: 100%;*/
+	
 }
 
 nav > ul{
-	text-align: left;
+
 }
 nav > ul > li{
 
 	display: inline;
+	padding: 20px;
 	color: #fff;
+
+}
+nav > ul > li:hover{
+
+	background: #fff;
+
+
+}
+ 
+ nav > ul > li:hover{
+
+	background: #fff;
+	
+
+}
+
+.nav-list a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-list a:hover{
+	
+	color: #f19c12;
+}
+.footer{
+	background: #f19c12;
+	padding: 20px;
+	text-align: center;
+}
+.footer > ul > li{
+
+	display: block;
+	padding: 20px;
+	line-height: 0px;
+	color: #fff;
+
+}
+.home{
+	background: #fff;
+	padding: 20px;
+}
+.about{
+	background: #ccc;
+	padding: 20px;
+}
+.services{
+	background: #fff;
+	padding: 20px;
+
+}
+.testimonials{
+	background: #ccc;
+	padding: 20px;
 }
